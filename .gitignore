@@ -1,0 +1,42 @@
+# Ignore Swift build artifacts
+.build/
+DerivedData/
+*.xcworkspace/
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.swiftpm/
+*.swiftinterface
+*.swiftmodule
+*.swiftdoc
+
+# Ignore Swift Package Manager dependencies
+Packages/
+Package.pins
+Sources/.DS_Store
+
+# Ignore Carthage and CocoaPods dependencies
+Carthage/Build/
+Pods/
+
+# Ignore macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder metadata
+Icon?
+
+# Directories related to macOS filesystems
+._*
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore HTML and web-related files
+html/
+*.html
+
+# Ignore specific data files and directories by adding them below
