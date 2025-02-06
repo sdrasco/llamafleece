@@ -35,8 +35,4 @@ Icon?
 *.log
 *.tmp
 
-# Ignore HTML and web-related files
-html/
-*.html
-
 # Ignore specific data files and directories by adding them below
